@@ -5,10 +5,13 @@
     "mix:production": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "devDependencies": {
+    "@wordpress/babel-preset-default": "^4.1.0",
     "@wordpress/wordcount": "^2.2.0",
+    "classnames": "^2.2.6",
     "cross-env": "^5.2.0",
     "laravel-mix": "^4.0.15",
-    "laravel-mix-wp-blocks": "^0.1.2",
+    "laravel-mix-wp-blocks": "^0.1.3",
+    "prop-types": "^15.7.2",
     "vue-template-compiler": "^2.6.10"
   }
 }
