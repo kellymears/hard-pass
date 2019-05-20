@@ -6,6 +6,12 @@ return [
     'core/latest-comments',
     'core/latest-posts',
     'core/verse',
+    /**
+     * Sidenote: It is infuriating that there are so many issues left to be resolved with
+     * this editor and they have prioritized the `amazon-kindle` core-embed block..
+     *
+     * 🤮
+     */
     'core-embed/amazon-kindle',
     'core-embed/animoto',
     'core-embed/cloudup',
