@@ -1,0 +1,21 @@
+{
+    "name": "tinypixel/hard-pass",
+    "description": "Developer tool for hardcoding WordPress block blacklist  in PHP",
+    "type": "wp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kelly Mears",
+            "email": "developers@tinypixel.dev"
+        }
+    ],
+    "require": {
+        "tightenco/collect": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "TinyPixel\\": ["./"],
+            "TinyPixel\\HardPass\\": ["src/"]
+        }
+    }
+}

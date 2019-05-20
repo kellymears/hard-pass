@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "mix": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "mix:production": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@wordpress/wordcount": "^2.2.0",
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.15",
+    "laravel-mix-wp-blocks": "^0.1.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
